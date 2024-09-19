@@ -87,9 +87,7 @@ class UrTube:
     class User:
         """
         Атриубуты: nickname(имя пользователя, строка), password(в хэшированном виде, число), age(возраст, число)
-        """
-        nickname = ''
-
+        """        
         def __init__(self, nickname, password, age):
             self.nickname = nickname
             self.password = hash(password)
